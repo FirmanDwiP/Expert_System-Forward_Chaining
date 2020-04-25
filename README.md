@@ -7,18 +7,18 @@ Php ver 5
 Home: 
 ![alt text][Home]
 
-[Home]: https://github.com/FirmanDwiP/Expert_System-Forward_Chaining/tree/master/ss/Home.png "Home"
+[Home]: https://github.com/FirmanDwiP/Expert_System-Forward_Chaining/blob/master/ss/Home.png "Home"
 
 <br><br>
 Admin: 
 ![alt text][Admin]
 
-[Admin]: https://github.com/FirmanDwiP/Expert_System-Forward_Chaining/tree/master/ss/Admin.png "Admin"
+[Admin]: https://github.com/FirmanDwiP/Expert_System-Forward_Chaining/blob/master/ss/Admin.png "Admin"
 
 <br><br>
 Cetak: 
 ![alt text][Cetak]
 
-[Cetak]: https://github.com/FirmanDwiP/Expert_System-Forward_Chaining/tree/master/ss/Cetak.png "Cetak"
+[Cetak]: https://github.com/FirmanDwiP/Expert_System-Forward_Chaining/blob/master/ss/Cetak.png "Cetak"
 
 <br><br>
