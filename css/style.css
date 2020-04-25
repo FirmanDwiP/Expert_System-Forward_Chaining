@@ -1,0 +1,374 @@
+@charset "utf-8";
+
+*{
+	padding:5px;
+	margin:5px auto;
+}
+
+body{
+	background:#f4f4f4; /*warna body*/
+	font-family: Roboto, sans-serif;
+	font-size:18px;
+	color:black;
+}
+
+#page {
+	margin-top:-10px;
+	margin-bottom:-10px;
+	padding: -10px;
+	/*border-radius:10px;*/
+	background:#36622b; /*warna header*/
+	width:100%;
+	-webkit-transition:1s;
+	/*transition: 1s;	*/
+}
+#page a {
+	color : white;
+	text-align : center;
+	display: inline-block;
+  	padding: 12px 14px;
+  	margin-top: -5px;
+  	margin-bottom: -5px;
+  	margin-right: -5px;
+  	/*border-radius:10px;*/
+  	text-decoration: none;
+}
+
+
+#page a:hover{
+ 	background-color: #fbfad3;
+ 	color: black;
+  	-webkit-transition:1s;
+	/*transition: 1s;*/
+}
+
+#page img {
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+
+.active {
+  background-color: #729d39; /*page yang aktif*/
+}
+
+#coba{
+	background: #fbfad3;
+	shape-margin: 10px;
+	margin-top: 10px;
+	margin-left: 135px;
+	margin-right: 135px;
+	margin-bottom: -5px;
+}
+
+/*.menu:visited {
+  background-color: green;
+}*/
+
+.gambar1 {
+	margin: 5px;
+	margin-left: 100px;
+	/*border-radius:5px;*/
+}
+#ucapan{
+	font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 25px;
+/*    font-family: 'Roboto';*/
+    color: black;
+}
+
+#pisah {
+	display: table;
+	clear: both;
+	margin-left: 15px;
+}
+
+.hikon:hover{
+	background:#4CAF50;
+	-webkit-transition:.50s ease-out;
+}
+.hikon{
+	background: white;
+	border-radius:10px;
+	margin-left: 100px;
+	text-align: center;
+	float: left;
+	width: 20%;
+	padding: 5px;
+}
+#pisah img{
+	border-radius: 50px;
+}
+/*#pisah img:hover{
+  background:#4CAF50;
+  border-radius:50px; 
+}*/
+
+#pisah h4 {
+	text-align: center;
+}
+
+.btndiagnosa {
+  background-color: #4CAF50; /* Green */
+  /*border-radius: 10px;*/
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 14px 40px;
+
+}
+
+.btndiagnosa:hover {
+	border: 2px solid #000000;
+	background-color: #71D371;
+	padding: 12px 38px;
+	text-decoration: none;
+	color: black;
+	-webkit-transition:.50s ease-in;
+	/*animation: ea;*/
+}
+
+#footer {
+	font-size:18px;
+/*	font-family: 'Roboto Slab';*/
+	width: 80%;
+	padding:10px;
+	clear:both;	
+	background-color:#36622b; /*warna foter*/
+	/*text-shadow:0 1px 0 #000;*/
+	color: white; /*warna tulisan footer*/
+	text-align: center;
+	/*border-radius:10px 20px;*/
+}
+
+/*Diagnosa*/
+
+.masuk {
+	background: white;
+	width:300px;
+	padding:10px;
+	color:#666;	
+}
+
+.textarea {
+	background: white;
+	width:300px;
+	padding:5px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#666;
+	font-size:15px;	
+}
+
+/*Mulai Diagnosa*/
+
+#mldagnose {
+	
+}
+
+.bodydiagnose {
+	margin-left: 40px;
+}
+
+
+#btndiagnose {
+	text-align: center;
+}
+#btndiagnose > input {
+	background: #729d39;
+}
+
+/*Hasil diagnosa*/
+#kalper {
+	width: 40%;
+	padding: 10px;
+	margin: 10px auto;
+	background: white;
+	text-align: center;
+}
+
+#kalkedua {
+	width: 45%;
+	padding: 10px;
+	margin: 10px auto;
+	background: white;
+	text-align: center;
+}
+
+#question {
+	text-align: center;
+}
+
+/*ttgkami-TentangKami*/
+
+#bodyttg{
+	border: 2px;
+	width: 80%;
+	border-radius:5px;
+/*	height: 950px;*/
+	background: #fbfad3;
+	margin-top: 15px;
+	margin-left: 135px;
+	margin-right: 135px;
+	margin-bottom: 15px
+}
+
+#bodyttg p {
+	text-align: center;
+	font-family:Times New Roman, sans-serif;
+	font-size:18px;
+}
+
+.map{
+	text-align: right;
+	height: 400px;
+	width: 450px;
+	padding: 5px;
+}
+
+.gmaps{
+	overflow: hidden;
+	background: none!important;
+	height: 400px;
+	width: 450px;
+	margin-bottom: 10px;
+}
+
+#ket{
+	background: white;
+	margin-top: 10px;
+	margin-right: 250px;
+	margin-left: 250px;
+/*	margin-bottom: 10px;*/
+	text-align: center;
+}
+
+/*login Admin*/
+
+#login {
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  /*margin: 0 auto;*/
+  background: #36622b;
+  border-radius: 3px;
+  margin-top: 150px;
+  font-family: 'Roboto';
+  color: white;
+}
+
+#login img {
+  width: 150px;
+  height: 55px;
+  margin-top: -5px;
+  /*margin-bottom: 30px;*/
+  border-radius: 10px;
+}
+
+.from-input {
+/*  content: "\f007";
+  position: absolute;*/
+  font-family: "Roboto";
+  margin-top: -25px;
+  width:300px;
+  padding-bottom: 14px;
+  background: #fbfad3;
+  border-radius: 3px;
+
+}
+
+/*ADMIN*/
+
+#well{
+	background: #36622b; /*kotak luar*/
+	width: 20%;
+	float: left;
+	height: 600px;
+/*	margin-top: -15px;*/
+	margin: -10px -5px 15px 10px;
+	border-radius: 2px;
+}
+
+
+#welldalam {
+	margin: 15px 35px 0px 35px;
+	padding: 10px;
+	background: #729d39; /*kotak dalam*/
+	text-align: center;
+	height: 550px;
+	border-radius: 5px;
+}
+
+#welldalam a {
+	display: block;
+	padding: 10px;
+	color: white;
+	background: #36622b;
+	font-style: 'sans-serif';
+	text-decoration: none;
+	border-radius: 2px;
+}
+
+#hem {
+	/*background: #fbfad3;*/
+	margin-top: -10px;
+	margin-right: 15px;
+	height: auto;
+	background: #36622b;
+	width: 75%;
+	float: right;
+	text-align: center;
+	padding: 5px;
+}
+
+#hemdalam{
+	margin: 15px;
+	padding: 10px;
+	background: #729d39; /*kotak dalam*/
+	text-align: center;
+	height: 550px auto;
+	border-radius: 5px;
+}
+
+#hemdalam button {
+	background:#36622b;
+	color: white;
+	font-size: 15px;
+}
+
+#hemdalam table, th, td {
+  border: 1px solid white;
+  background: #36622b;
+  border-collapse: collapse;
+  color: white;
+  text-align: center;
+}
+
+.tabel_admin {
+	border: 1px solid black;
+}
+.tabel_admin a {
+	color: white;
+	text-decoration: none;
+}
+/*tambah gejala*/
+#tmbhgejala {
+	text-align: center;
+	margin-left: 0px;
+	background: red;
+}
+
+#tmbhpenyakit {
+	text-align: left;
+	margin-left: 300px;
+}
+
+.xxxx {
+	color: red;
+	background: red;
+}

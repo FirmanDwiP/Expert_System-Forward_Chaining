@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+*{
+	padding:5px;
+	margin:5px auto;
+}
+
+body{
+	background:#f4f4f4; /*warna body*/
+	font-family: Roboto, sans-serif;
+	font-size:18px;
+	color:black;
+}
+#footer {
+	font-size:18px;
+/*	font-family: 'Roboto Slab';*/
+	width: 80%;
+	padding:10px;
+	clear:both;	
+	background-color:#36622b; /*warna foter*/
+	/*text-shadow:0 1px 0 #000;*/
+	color: white; /*warna tulisan footer*/
+	text-align: center;
+	/*border-radius:10px 20px;*/
+}
+
+#well{
+	background: #36622b; /*kotak luar*/
+	width: 20%;
+	float: left;
+	height: 600px;
+/*	margin-top: -15px;*/
+	margin: -10px -5px 15px 10px;
+	border-radius: 2px;
+}
+
+
+#welldalam {
+	margin: 15px 35px 0px 35px;
+	padding: 10px;
+	background: #729d39; /*kotak dalam*/
+	text-align: center;
+	height: 550px;
+	border-radius: 5px;
+}
+
+#welldalam a {
+	display: block;
+	padding: 10px;
+	color: white;
+	background: #36622b;
+	font-style: 'sans-serif';
+	text-decoration: none;
+	border-radius: 2px;
+}
+
+#hem {
+	/*background: #fbfad3;*/
+	margin-top: -10px;
+	margin-right: 15px;
+	height: auto;
+	background: #36622b;
+	width: 75%;
+	float: right;
+	text-align: center;
+	padding: 5px;
+}
+
+#hemdalam{
+	margin: 15px;
+	padding: 10px;
+	background: #729d39; /*kotak dalam*/
+	text-align: center;
+	height: 550px auto;
+	border-radius: 5px;
+}
+
+#hemdalam button {
+	background:#36622b;
+	color: white;
+	font-size: 15px;
+}
+
+#hemdalam table, th, td {
+  border: 1px solid white;
+  background: #36622b;
+  border-collapse: collapse;
+  color: white;
+  text-align: center;
+}
+
+.tabel_admin {
+	border: 1px solid white;
+}
+.tabel_admin a {
+	color: white;
+	text-decoration: none;
+}
+/*tambah gejala*/
+#tmbhgejala {
+	text-align: left;
+	margin-left: 300px;
+}
+
+#tmbhpenyakit {
+	text-align: left;
+	margin-left: 300px;
+}
