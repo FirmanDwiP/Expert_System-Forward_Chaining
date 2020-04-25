@@ -5,6 +5,7 @@ U CAN USING MYSQL  = sipasis.sql
 <br>
 Php ver 5
 <br>
+(https://github.com/FirmanDwiP/Expert_System-Forward_Chaining/blob/master/ss/Home.png "Home")
 Home: 
 ![alt text][Home]
 
