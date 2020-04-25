@@ -7,6 +7,8 @@ Php ver 5
 <br>
 Home<br/>
 ![alt text](https://github.com/FirmanDwiP/Expert_System-Forward_Chaining/blob/master/ss/Home.png "Home")<br/><br/>
+Home<br/>
+![alt text](https://github.com/FirmanDwiP/Expert_System-Forward_Chaining/blob/master/ss/Home.png "Home")<br/><br/>
 
 Admin: 
 ![alt text][Admin]
