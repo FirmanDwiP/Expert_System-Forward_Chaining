@@ -6,9 +6,7 @@ U CAN USING MYSQL  = sipasis.sql
 Php ver 5
 <br><br>
 Home: 
-![alt text][Home]
-
-[Home]: https://github.com/FirmanDwiP/Expert_System-Forward_Chaining/blob/master/ss/Home.png "Home"
+![alt text](https://github.com/FirmanDwiP/Expert_System-Forward_Chaining/blob/master/ss/Home.png "Home")
 
 <br><br>
 Admin: 
